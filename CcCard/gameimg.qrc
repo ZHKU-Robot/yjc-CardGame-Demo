@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cardImg/武侠卡牌网游ui素材-教主日记ui素材-UI 场景 raid_爱给网_aigei_com.png</file>
+        <file>cardImg/619bfd3acfd7f693.jpg</file>
+        <file>enemyImg/mogutou1.gif</file>
+        <file>figureImg/mogutou2.gif</file>
+        <file>cardImg/6af89bc8gw1f8od7wwm32j206o04qglj.jpg</file>
+        <file>cardImg/ceeb653ely1gg4rd5oomfj208c089gns.jpg</file>
+        <file>cardImg/6af89bc8gw1f8nlbw10kij205d05i743.jpg</file>
+        <file>cardImg/defend1.jpg</file>
+        <file>fightUiImg/heart.svg</file>
+        <file>fightUiImg/Mana Potion.svg</file>
+        <file>fightUiImg/strength.svg</file>
+        <file>fightUiImg/盾牌.svg</file>
+        <file>fightUiImg/006oOWahly1fu28jkjxwbj306v07r0sw.jpg</file>
+    </qresource>
+</RCC>
