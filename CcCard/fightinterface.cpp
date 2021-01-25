@@ -514,7 +514,7 @@ void FightInterface::removeCards()
 
         connect(ani,&QPropertyAnimation::finished,this,[=](){
              scene->removeItem(card);
-//             card->w->deleteLater();
+             card->close();
 
         });
 
