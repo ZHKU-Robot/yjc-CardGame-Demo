@@ -502,7 +502,7 @@ void FightInterface::removeCards()
     int _size=cardsProxyV.size();
     for(int i=0;i<_size;i++) {
 
-        CardGraphicsProxyWidget *card = cardsProxyV[0];
+        CardGraphicsProxyWidget *card = cardsProxyV.at(0);
         card->cardsReady=0;
         cardsProxyV.removeFirst();
 
@@ -514,7 +514,7 @@ void FightInterface::removeCards()
 
         connect(ani,&QPropertyAnimation::finished,this,[=](){
              scene->removeItem(card);
-             card->close();
+             card->deleteLater();
 
         });
 
